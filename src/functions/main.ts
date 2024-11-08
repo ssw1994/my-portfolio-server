@@ -1,8 +1,8 @@
 import { Handler, Context, Callback } from 'aws-lambda';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from '../app.module';
-import serverlessExpress from 'serverless-http';
-
+//import serverlessExpress from 'serverless-http';
+const serverlessExpress = require('serverless-http');
 let server: Handler;
 
 async function bootstrap() {
