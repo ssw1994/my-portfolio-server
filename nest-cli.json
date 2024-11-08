@@ -4,6 +4,8 @@
   "sourceRoot": "src",
   "compilerOptions": {
     "deleteOutDir": true,
-    "outputPath": "dist"
+    "assets": ["src/functions/lambda.ts"],
+    "outputPath": "dist",
+    "watchAssets": true
   }
 }
