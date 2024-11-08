@@ -5,5 +5,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/lambda"
+  to = "/.netlify/functions/main"
   status = 200
